@@ -20,6 +20,8 @@ local sources = {
 
   -- go
   b.formatting.goimports,
+
+  b.formatting.phpcsfixer,
 }
 
 null_ls.setup {

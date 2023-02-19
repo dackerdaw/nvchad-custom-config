@@ -10,6 +10,7 @@ M.treesitter = {
     "c",
     "python",
     "go",
+    "php",
   },
 }
 
@@ -32,6 +33,9 @@ M.mason = {
 
     -- python
     "python-lsp-server",
+
+    -- php
+    "intelephense",
   },
 }
 
