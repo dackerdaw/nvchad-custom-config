@@ -36,6 +36,7 @@ M.mason = {
 
     -- php
     "intelephense",
+    "php-cs-fixer",
   },
 }
 

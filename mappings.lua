@@ -3,6 +3,8 @@ local M = {}
 
 M.general = {
   n = {
+    -- collapse all tree in nvim-tree
+    ["<C-f>"] = { "<cmd> NvimTreeCollapse <CR>", "collapse nvimtree" },
   },
 
   i = {
