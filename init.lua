@@ -13,3 +13,4 @@ autocmd("VimResized", {
 -- autocmd({ "VimEnter" }, { callback = open_nvim_tree })
 
 opt.relativenumber = true
+opt.autoindent = true
