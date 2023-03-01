@@ -44,6 +44,22 @@ local plugins = {
 
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
+
+  ["ggandor/leap.nvim"] = {
+    opt = true,
+    setup = function()
+      require("core.lazy_load").on_file_open "leap.nvim"
+    end,
+    config = function ()
+      require("leap").add_default_mappings(true)
+    end
+  },
+
+  ["iamcco/markdown-preview.nvim"] = {
+    run = "cd app && yarn install",
+    ft = { "markdown" },
+  },
+
 }
 
 return plugins

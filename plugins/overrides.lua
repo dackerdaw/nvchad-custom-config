@@ -11,6 +11,8 @@ M.treesitter = {
     "python",
     "go",
     "php",
+    "markdown",
+    "yaml",
   },
 }
 
@@ -31,12 +33,20 @@ M.mason = {
     "gopls",
     "goimports",
 
+    -- yaml
+    "yaml-language-server",
+
     -- python
     "python-lsp-server",
 
     -- php
     "intelephense",
     "php-cs-fixer",
+
+    -- markdown
+    "marksman",
+    "markdownlint",
+    "prettierd",
   },
 }
 

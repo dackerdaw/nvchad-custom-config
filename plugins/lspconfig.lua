@@ -12,7 +12,9 @@ local servers = {
   "emmet_ls",
   "tailwindcss",
   "gopls",
-  "intelephense"
+  "intelephense",
+  "yamlls",
+  "marksman"
 }
 
 for _, lsp in ipairs(servers) do
