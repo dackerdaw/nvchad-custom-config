@@ -60,6 +60,10 @@ local plugins = {
     ft = { "markdown" },
   },
 
+  ["kdheepak/lazygit.nvim"] = {
+    cmd = { "LazyGit" },
+  }
+
 }
 
 return plugins
