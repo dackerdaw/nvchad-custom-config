@@ -58,7 +58,11 @@ local plugins = {
   ["iamcco/markdown-preview.nvim"] = {
     run = "cd app && yarn install",
     ft = { "markdown" },
+    config = function ()
+      vim.g.mkdp_auto_close = 0
+    end
   },
+
 
   ["kdheepak/lazygit.nvim"] = {
     cmd = { "LazyGit" },
