@@ -6,7 +6,9 @@ local lspconfig = require "lspconfig"
 local servers = {
   "html",
   "cssls",
-  "denols",
+  -- "denols",
+  "tsserver",
+  -- "eslint",
   "clangd",
   "pylsp",
   "emmet_ls",

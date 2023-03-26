@@ -7,6 +7,8 @@ M.treesitter = {
     "html",
     "css",
     "javascript",
+    "typescript",
+    "tsx",
     "c",
     "python",
     "go",
@@ -26,7 +28,10 @@ M.mason = {
     "css-lsp",
     "html-lsp",
     "deno",
+    "typescript-language-server",
     "emmet-ls",
+    -- "eslint-lsp",
+    "eslint_d",
     "tailwindcss-language-server",
 
     -- golang
@@ -46,7 +51,7 @@ M.mason = {
     -- markdown
     "marksman",
     "markdownlint",
-    "prettierd",
+    "prettierd"
   },
 }
 
