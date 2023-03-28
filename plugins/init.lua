@@ -26,6 +26,10 @@ local plugins = {
     override_options = overrides.nvimtree,
   },
 
+  ["folke/which-key.nvim"] = {
+    disable = false,
+  },
+
   -- Install a plugin
   ["max397574/better-escape.nvim"] = {
     event = "InsertEnter",
